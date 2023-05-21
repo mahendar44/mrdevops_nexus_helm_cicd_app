@@ -7,14 +7,14 @@ pipeline {
         stage (' soanr quality check') {
 
             
-            steps {
-
             agent {
-
+                
                 docker {
+                    
                     image 'maven'
                 }
             }
+            steps {
             
                 script {
                     
