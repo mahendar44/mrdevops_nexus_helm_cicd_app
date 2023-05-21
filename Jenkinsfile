@@ -4,7 +4,7 @@ pipeline {
 
     enviroment {
 
-        VERSION ="${env.BUILD_ID}"
+        VERSION = "${env.BUILD_ID}"
     }
 
     stages {
