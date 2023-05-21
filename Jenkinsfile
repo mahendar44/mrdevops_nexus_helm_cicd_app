@@ -1,9 +1,8 @@
 pipeline {
 
     agent any 
-
     enviroment {
-
+       
         VERSION = "${env.BUILD_ID}"
     }
 
